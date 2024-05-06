@@ -2,7 +2,19 @@ const { createApp } = Vue;
 
 createApp({
     data() {
-        return {};
+        return {
+            discs: []
+        };
     },
-    methods: {}
+    methods: {
+        getDiscs() {
+            axios.get('dischi.php')
+                .then(response => {
+                    this.discs = response.data;
+                })
+        }
+    },
+    mounted() {
+        this.getDiscs();
+    }
 }).mount('#app');

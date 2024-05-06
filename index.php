@@ -20,19 +20,88 @@
     <script src="https://unpkg.com/vue@3"></script>
     <!-- Axios -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- CSS -->
+    <link rel='stylesheet' href='./src/assets/css/style.css'>
 </head>
 
 <body>
     <div id="app">
-        
+
+        <nav class="navbar navbar-bg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="src/img/Logo.png" alt="Boolean" width="30" height="30">
+                </a>
+            </div>
+        </nav>
+        <main class="bg-main">
+            <div class="container text-center">
+                <div class="row px-5 justify-content-between">
+                    <div class="col-4 p-4">
+                        <div class="card my-bg-card h-100 p-5">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
+                            <div class="card-body text-white">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-4">
+                        <div class="card my-bg-card h-100 p-5">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
+                            <div class="card-body text-white">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-4">
+                        <div class="card my-bg-card h-100 p-5">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
+                            <div class="card-body text-white">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-4">
+                        <div class="card my-bg-card h-100 p-5">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
+                            <div class="card-body text-white">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-4">
+                        <div class="card my-bg-card h-100 p-5">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
+                            <div class="card-body text-white">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-4">
+                        <div class="card my-bg-card h-100 p-5">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
+                            <div class="card-body text-white">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
     </div>
 
-    <script src="assets/js/script.js"></script>
     <!-------Script links:------->
     <!-- Bootstrap: -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- My Javascript -->
-    <script type='text/javascript' src='assets/js/script.js'></script>
+    <script type='text/javascript' src='src/assets/js/script.js'></script>
 </body>
 
 </html>
