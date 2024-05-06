@@ -37,60 +37,17 @@
         <main class="bg-main">
             <div class="container text-center">
                 <div class="row px-5 justify-content-between">
-                    <div class="col-4 p-4">
+                    <div class="col-4 p-4" v-for="disc in discs">
                         <div class="card my-bg-card h-100 p-5">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
+                            <img :src="disc.poster" class="" alt="...">
                             <div class="card-body text-white">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a short card.</p>
+                                <h5 class="card-title">{{ disc.title }}</h5>
+                                <p class="card-text">{{ disc.author }}</p>
+                                <h6>{{ disc.year }}</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 p-4">
-                        <div class="card my-bg-card h-100 p-5">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
-                            <div class="card-body text-white">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a short card.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 p-4">
-                        <div class="card my-bg-card h-100 p-5">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
-                            <div class="card-body text-white">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a short card.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 p-4">
-                        <div class="card my-bg-card h-100 p-5">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
-                            <div class="card-body text-white">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a short card.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 p-4">
-                        <div class="card my-bg-card h-100 p-5">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
-                            <div class="card-body text-white">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a short card.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 p-4">
-                        <div class="card my-bg-card h-100 p-5">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" class="" alt="...">
-                            <div class="card-body text-white">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a short card.</p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </main>
